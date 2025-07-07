@@ -155,18 +155,8 @@ async function getTagStatsEmbed(guild) {
 ${tagCount === totalCount 
   ? "🎉 **Harika! Tüm üyeler tagı mükemmel kullanıyor!** 👏🔥" 
   : "📌 **Dikkat! Bazı üyeler hala tagı eksik veya yanlış kullanıyor olabilir!** ⚠️\n> Lütfen onları bilgilendir ve bu oranı yükselt!"}
-  
-──────────────────────────────
-
 💎 **İstatistik Detayları:**  
-> • Aktif Üye Sayısı: \`${totalCount - (guild.members.cache.filter(m => m.user.bot).size)}\`  
-> • Bot Sayısı: \`${guild.members.cache.filter(m => m.user.bot).size}\`  
 > • Rol verilen üye sayısı: \`${tagCount}\`
-
-🚀 **Sunucu Tag Durumu şu an çok parlak!**  
-🛡️ *Tag'ına sahip çık, topluluğunu güçlendir!*
-
-──────────────────────────────
 `)
 .setFooter({ 
   text: `Son Güncelleme • ${new Date().toLocaleString('tr-TR', { dateStyle: 'full', timeStyle: 'short' })}`, 
