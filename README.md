@@ -1,5 +1,9 @@
-botu istediğiniz gibi kullanın hata varsa
+discord sunucu tag botu istediğiniz gibi kullanın hata varsa
 
+
+işlev;
+
+Sunucunun özel etiketini alanlara özel rol verir.
 
 discord.gg/emperor
 dc:emperorrr
